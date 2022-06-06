@@ -2,7 +2,6 @@ package com.mycompany.menu;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Map.Entry;
 
 class MenuPrincipal {
     private Map<Integer, Item> itens;
