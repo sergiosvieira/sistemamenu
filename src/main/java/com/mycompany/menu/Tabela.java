@@ -22,6 +22,12 @@ public class Tabela {
         return null;
     }
     public Entidade ler(int codigo) {
+        for (int i = 0; i < tabela.size(); ++i) {
+            Entidade ent = tabela.get(i);
+            if (ent.getCodigo() == codigo) {
+                return ent;
+            }
+        }        
         return null;
     }
     public boolean apagar(int codigo) {
